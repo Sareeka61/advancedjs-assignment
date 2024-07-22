@@ -17,7 +17,7 @@ sumOfFourNaturalNumbers(4, (result) => {
 function sumOfFirstFourNaturalNumbers(n) {
     return new Promise((resolve, reject) => {
         if(n<0){
-            reject("Negative numbers isn't allowed!");_
+            reject("Negative numbers isn't allowed!");
         } else {
             let sum = 0;
             for(let i=1; i<=n; i++) {
